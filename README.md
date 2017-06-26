@@ -20,5 +20,5 @@ Add it in your root build.gradle at the end of repositories:
 Add the dependency:
 
 	dependencies {
-	        compile 'com.github.artjokerLLC:Onboarding.Android:f27e4f4a11'
+	        compile 'com.github.artjokerLLC:Onboarding.Android:-SNAPSHOT'
 	}
