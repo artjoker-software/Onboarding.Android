@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intro_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/transfer_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/brassiere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cap"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="0dp"
+                tools:translationY="-100dp"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ball"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="75dp"
+                tools:translationY="-175dp"
+                tools:scaleX="1"
+                tools:scaleY="1"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="100dp"
+                tools:translationY="-50dp"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/pomade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pomade"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="-125dp"
+                tools:translationY="0dp"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/tent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tent"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="-100dp"
+                tools:translationY="-75dp"
+                tools:scaleX="1"
+                tools:scaleY="1"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/washer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/washer"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="-50dp"
+                tools:translationY="50dp"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mobile"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:translationX="60dp"
+                tools:translationY="50dp"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/transfer"
+                android:adjustViewBounds="true"
+                android:alpha="0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/comp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/computer"
+                android:adjustViewBounds="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:scaleType="centerCrop"
+                tools:scaleX="1"
+                tools:scaleY="1" />
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clock"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/arrowHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_hour"
+                android:adjustViewBounds="true"
+                android:scaleX=".9"
+                android:scaleY=".9"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/arrowMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_minute"
+                android:adjustViewBounds="true"
+                android:scaleX=".8"
+                android:scaleY=".8"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/clock_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mount"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/terminal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/terminal"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/dollar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clip_dollar"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:id="@+id/transfer_finger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finger"
+                android:adjustViewBounds="true"
+                tools:visibility="gone"/>
+
+
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:id="@+id/layoutDots"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/indicators_height"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indicator_primary"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/dot_1"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:clickable="false"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indicator_normal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/dot_2"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:clickable="false"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indicator_normal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/dot_3"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:clickable="false"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indicator_normal"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/dot_4"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:clickable="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <artjoker.com.onboarding.intro.pager.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/text_slide"
+        android:background="@android:color/transparent"/>
+
+</FrameLayout>
+
+

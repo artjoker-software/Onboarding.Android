@@ -1,0 +1,23 @@
+ext {
+    //Libraries
+    butterknifeVersion = '8.5.1'
+    rxAndroidVersion = '2.0.1'
+    rxJavaVersion = '2.1.0'
+
+    //Testing
+    jUnitVersion = '4.12'
+
+    //Development
+    dependencies = [
+            //ButterKnife
+            butterknife                              : "com.jakewharton:butterknife:${butterknifeVersion}",
+            butterknifeCompiler                      : "com.jakewharton:butterknife-compiler:${butterknifeVersion}",
+
+            //Rx
+            rxAndroid                                : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            rxJava                                   : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+
+            //Testing
+            junit                                    : "junit:junit:${jUnitVersion}",
+    ]
+}
