@@ -4,6 +4,9 @@
 
 ##This project provides sample of Onboarding customization 
 
+
+<img src="https://github.com/artjokerLLC/Onboarding.Android/blob/master/onboarding-sample.gif?raw=true" width="300" height="600" />
+
 # Usage 
 Add it in your root build.gradle at the end of repositories:
 
